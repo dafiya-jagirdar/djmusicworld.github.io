@@ -1,0 +1,86 @@
+body{
+    background-color: #FF8C00;
+}
+header {
+    padding: 20px;
+  }
+#logo {
+    height: 50px;
+    width: 50px;
+  }
+
+.section-1{
+    float: left;
+    width: 50%; 
+}
+
+.section-2{
+    float: left;
+    width: 50%; 
+}
+
+
+.first-heading{
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.first-paragraph{
+    padding-top: 20px;
+}
+
+img {
+    margin-bottom: 5px; 
+    padding-bottom: 10px;
+    padding-top: 40px;/* Adds 20 pixels of margin at the bottom of the image */
+  }
+
+  .registration-form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .radio-group label {
+    margin-right: 10px;
+  }
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="checkbox"],
+button[type="submit"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    padding-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
